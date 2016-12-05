@@ -13,3 +13,28 @@
     margin-right: auto;  
     color: black;  
 }
+.materialboxed {
+    float: left;
+    border-radius: 2em;
+    margin-left: 3.3em;
+    border: solid 2px darkgray;
+}
+.team {
+    position: relative;
+}
+#solo {
+    display: inline-block;
+    margin-top: 2em;
+    margin-left: 2.5%;
+    padding: 2em;
+    border: solid 2px darkgrey;
+    border-radius: 2em;
+    height: 70%;
+    width: 30%;
+}
+#text {
+    position: absolute;
+    margin-top: 17em;
+    margin-left: 5%;
+    font-family: Verdana;
+}
