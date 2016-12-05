@@ -19,6 +19,9 @@
     margin-left: 3.3em;
     border: solid 2px darkgray;
 }
+.lake {
+    margin-top: 1em;
+}
 .team {
     position: relative;
 }
@@ -37,4 +40,16 @@
     margin-top: 17em;
     margin-left: 5%;
     font-family: Verdana;
+}
+#about {
+    float: left;
+    width: 60%;
+    margin-left: 3em;
+    margin-top: 6em;
+    font-family: Verdana;
+    font-size: 1em;
+}
+#aboutcontainer {
+    margin-top: 8em;
+
 }
