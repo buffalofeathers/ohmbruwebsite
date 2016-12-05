@@ -1,0 +1,15 @@
+#navbar {
+    color: black;
+}
+
+.title {
+    margin-left: 5%;
+}
+.email {
+    position: relative;
+    margin-top: .5em;
+    margin-bottom: 0em;
+    margin-left: 47%;
+    margin-right: auto;  
+    color: black;  
+}

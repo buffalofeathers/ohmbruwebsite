@@ -17,18 +17,41 @@
         <meta property="og:description" content="{{ seo.description }}">
         <meta property="twitter:description" content="{{ seo.description }}">
         <script>window.prerenderReady = false;</script>
-         <script src="http://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+        <script src="http://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
         <script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.js'></script>
         <script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular-route.js'></script>
         <script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular-resource.js'></script>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> 
+        <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
         <script src="app.js"></script>
+        <script src="script.js"></script>
         <script src="controllers.js"></script>
         <link rel="stylesheet" href="style.css">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>ohmbru</title>
     </head>
     <body>
+            <nav>
+                <div id="navbar" class="nav-wrapper white">
+                <a href="/" class="brand-logo title black-text text-darken-2">ohmbru inc.</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="/team" class="black-text text-darken-2">our team</a></li>
+                    <li><a href="/about" class="black-text text-darken-2">about</a></li>
+                </ul>
+                </div>
+            </nav>
         <div ng-view></div>
+        <script>
+        $(document).ready(function(){
+         $('.slider').slider({full_width: true});
+
+        $(".button-collapse").sideNav();
+        });
+        </script>
     </body>
 </html>

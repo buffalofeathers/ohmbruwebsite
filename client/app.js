@@ -10,4 +10,12 @@ angular.module('ohmbru', ['ngRoute', 'ngResource'])
         templateUrl: 'views/contact.html'
 
     })
+    .when('/team', {
+        templateUrl: 'views/team.html'
+
+    })
+    .when('/about', {
+        templateUrl: 'views/about.html'
+
+    })
 }]);
