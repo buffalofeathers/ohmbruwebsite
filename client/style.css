@@ -53,6 +53,17 @@
     margin-top: 8em;
 
 }
+@media screen and (max-width: 1025px) {
+    .title {
+    margin-left: -25%;
+    }
+    #pic {
+        margin-left: 5%;
+    }
+    #text {
+        margin-left: -1%;
+    }
+}
 @media screen and (max-width: 420px) {
   .title {
     margin-left: -25%;
@@ -69,6 +80,9 @@
   #pic {
       margin-left: 5%;
       width: 85%;
+  }
+  #text {
+      margin-top: 67%;
   }
   #aboutpic {
       width: 70%;
