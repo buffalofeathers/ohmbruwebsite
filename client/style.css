@@ -53,3 +53,36 @@
     margin-top: 8em;
 
 }
+@media screen and (max-width: 420px) {
+  .title {
+    margin-left: -25%;
+  }
+  .email {
+      margin-left: 38%;
+  }
+  #solo {
+      display: block;
+      width: 90%;
+      margin-left: 1em;
+      margin-bottom: 2em;
+  }
+  #pic {
+      margin-left: 5%;
+      width: 85%;
+  }
+  #aboutpic {
+      width: 70%;
+      margin-left: 5%;
+  }
+  /*.app.showing-drawer {
+    right: 250px;
+    -webkit-box-shadow: 2px 0 10px 0 rgba(0, 0, 0, 0.7);
+    box-shadow: 2px 0 10px 0 rgba(0, 0, 0, 0.7);
+  }
+  .app .custom-navbar ul {
+    display: none;
+  }
+  .app .custom-navbar .hamburger {
+    display: block;
+  }*/
+}
